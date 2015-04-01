@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+{{ partial "head.html"}}
+<body>
+{{ partial "top.html" }}
+<div class="content">
+<h2>Notes</h2>
+<div class="content-body">
+{{ range $index, $page := .Site.Pages }}
+{{ if eq .Section "post" }}
+<div class="post-item">
+&#10171;
+<a href="{{ .Permalink }}">{{ .Title }}</a>
+<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHtml }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+</div>
+{{ end }}
+{{ end }}
+<div class="post-sep"></div>
+<div class="post-item">
+&#10171; <a href="/about/">About</a>
+</div>
+
+</div>
+</div>
+{{ partial "bottom.html" }}
+</body>
+</html>

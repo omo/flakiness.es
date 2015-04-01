@@ -1,0 +1,102 @@
+
+html, body {
+    padding: 0px;
+    margin: 0px auto 0px auto;
+    width: 90%;
+    max-width: 800px;
+}
+
+h1 {
+  font-family: "Open Sans" sans-serif;
+  margin: 0px;
+  padding: 0.5em;
+  color: white;
+  background-image: url("/images/title-bg.png");
+  border-radius: 0px 0px 2pt 2pt;
+}
+
+h2 {
+  margin: 0px;
+  padding: 0.2em 0px 0.2em 0px;
+}
+
+h1 a, h1 a:link, h1 a:visited,
+h2 a, h2 a:link, h2 a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.content {
+  padding: 1em;
+  line-height: 140%;
+  font-size: 12pt;
+  font-family: 'Merriweather', serif;
+}
+
+.content time {
+  color: #aaa;
+}
+
+.content-body {
+  padding: 0.5em 0px 0.5em 0px;
+}
+
+.content-body p {
+  font-family: 'Merriweather', serif;
+  -webkit-margin-before: 0.5em;
+  -webkit-margin-after: 0.5em;
+}
+
+.content-body a:link,
+.content-body a:visited {
+  color: #448;
+  text-decoration: none;
+}
+
+.content-body a:hover {
+  text-decoration: underline;
+}
+
+.post-sep {
+  height: 0.5em;
+}
+
+.post-item a, .post-item a:link, .post-item a:visited {
+  text-decoration: none;
+  color: #224;
+}
+
+.post-item time {
+    margin-left: 0.5em;
+}
+
+.bottom {
+  padding: 1em;
+  border-width: 1px 0px 0px 0px;
+  border-style: dotted;
+  border-color: #444;
+}
+
+.bottom-links {
+  display: block;
+  text-align: right;
+  -webkit-margin-before: 0px;
+  -webkit-margin-after: 0px;
+}
+
+.bottom-links li {
+  display: inline-block;
+}
+
+.bottom-links a {
+  margin-right: 0.1em;
+}
+
+.bottom-links a:link, .bottom-links a:visited {
+  color: #444;
+}
+
+em {
+  font-style: normal;
+  font-weight: bold;
+}

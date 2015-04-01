@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+{{ partial "head.html" }}
+<body>
+{{ partial "top.html" }}
+<article class="content">
+<h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+{{ if eq .Section "post" }}
+<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHtml }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+{{ end }}
+<div class="content-body">
+{{ .Content }}
+</div>
+</article>
+{{ partial "bottom.html" }}
+</body>
+</html>

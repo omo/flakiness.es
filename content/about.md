@@ -12,7 +12,7 @@ specifically on Blink rendering engine.
 Before joining Google, I was working on some small and no-so-small Tokyo based companies on various areas.
 
 On the Web, I'm using [omo](http://github.com/omo) on GitHub, [flakiness](https://twitter.com/flakiness) on Twitter and
-[morrita](morrita@chromium.org) on Chromium land. (Apologies for the inconsistency; I was educated at the time when identity didn't matter that much.)
+[morrita](morrita@chromium.org) on Chromium land. (Apologies for the inconsistency; I was educated at the time when the online identity mattered much less.)
 
 I maintain this [flakiness.es](http://flakiness.es/) to publish some writings.
 If you can read Japanese, you might want to skim [my another blog](http://steps.dodgson.org/), which is writtern in the exotic language.

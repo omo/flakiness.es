@@ -1,0 +1,4 @@
+language: python
+install: travis/install.sh
+script: travis/build.sh
+after_success: travis/deploy.sh

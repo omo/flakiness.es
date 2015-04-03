@@ -1,6 +1,6 @@
 +++
 date = "2015-04-02"
-draft = true
+draft = false
 title = "Cloud 9 As a Blog Editor"
 +++
 

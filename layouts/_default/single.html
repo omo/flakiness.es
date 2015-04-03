@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
-{{ partial "head.html" }}
+{{ partial "head.html" . }}
 <body>
-{{ partial "top.html" }}
+{{ partial "top.html"  . }}
 <article class="content">
 <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
 {{ if eq .Section "post" }}
@@ -12,6 +12,6 @@
 {{ .Content }}
 </div>
 </article>
-{{ partial "bottom.html" }}
+{{ partial "bottom.html" . }}
 </body>
 </html>

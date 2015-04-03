@@ -1,5 +1,5 @@
 baseurl = "http://flakiness.es/"
+title = "Hajime Morrita's flakinesses"
 languageCode = "en-us"
-title = "flakiness-es by Hajime Morrita"
 [permalinks]
   post = "/:year/:month/:day/:title/"

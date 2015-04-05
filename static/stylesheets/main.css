@@ -33,6 +33,17 @@ h2 a, h2 a:link, h2 a:visited {
   font-family: 'Merriweather', serif;
 }
 
+@media (max-width: 480px) {
+.content {
+  font-size: 11pt;
+}
+
+html, body {
+    width: 100%;
+}
+
+}
+
 .content time {
   color: #aaa;
 }

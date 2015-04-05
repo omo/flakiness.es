@@ -7,16 +7,14 @@ title = "Truck Factor 0.5"
 A few months ago, I asked Yuko, my wife, to create an launcher icon for an Android app I was working on.
 It's one of my side projects. I wanted the icon because
 I was going to upload the app to Play Store and
-I knew she had some good visual skills.
+I knew she had some good visual design skills.
 
 She agreed, but it turned out that she had busy weeks coming. 
 I was waiting, waiting and waiting, and then distracted other things.
 She couldn't make it, and the development stalled there.
 
 This made me wonder: Why does the collaboration, which intuitively should help the progress, sometimes hinders it?
-We see all this happening time to time.
-Even I did once block my friend's project years ago where I was working on the backend.
-I gave it up as my day job got busy, and it killed our (well, his) project.
+We see all this happening time to time. Even I did once block my friend's project years ago where I was working on the backend. I gave it up as my day job got busy, and it killed our (well, his) project.
 
 Another observation here is that the blockage happens more on a side project than a day job. Apparently the collaboration goes well more at work than at weekends. Even so,
 some people [recommend](http://programmer-hek.blogspot.com/2014/11/as-programmers-why-we-never-finish-our.html) to have side projects with others.
@@ -48,9 +46,7 @@ At the same time, it doesn't raise the number much either. For many side project
 
 Imagine you have a friend who is willing to collaborate with you on a side project and you two are going to start new one together. What should you do?
 
-If this is a day job, you'll sketch some rough architecture and split the work between members based on the blueprint. This doesn't seem a great way for side projects though.
-Unlike professional work with the commitment, personal projects are fragile.
-Procrastinations and distractions of the participants are likely. Having two SPOFs, the result of the work split, will be too vulnerable here.
+If this is a day job, you'll sketch some rough architecture and split the work between members based on the blueprint. This doesn't seem a great way for side projects though. Unlike professional work with the commitment, personal projects are fragile. Procrastinations and distractions of the participants are likely. Having two SPOFs, the result of the work split, will be too vulnerable here.
 
 What about the open source 1.01 model above? The problem is that it isn't trivial to decide who is 1.0 and who else is 0.1. If you both want to be 1.0, there will be many conflicts.
 Being 1.0 usually means making key decisions: Which languages/frameworks to use, which part to take, where to start... There is endless list of sweet decisions. Having conflicts over these will kill the project. This is different kind of failure than hitting by a boredom truck. It is killed by ego, or self-expression if you want a pretty word.

@@ -16,7 +16,7 @@ I'm sorry to say that you do *not* have to crack your own itch though:
 This one is amazing! (I'm writing on the C9 IDE at this moment.)
 You can clone your repo into the cloud.
 You have fully featured text editor with powerful shortcuts to make changes.
-There is even the Markdown preview feature! What's else do you want?
+There is even the Markdown preview feature! What else do you want?
 
 With GitHub, Travis, S3 and C9,
 we finally have a cloud powered, lock-in free blogging platform.
